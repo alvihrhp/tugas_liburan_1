@@ -1,0 +1,79 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    height: 80px;
+    font-size: 18px;
+    background: rgba(255,255,255,0);
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    padding: 0;
+}
+
+.navbar-brand-container {
+    background-color: #000000;
+    padding: 35px 45px;
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+    display: block;
+}
+
+.navbar-brand {
+    margin: 0;
+    color: white !important;
+}
+
+.nav-link {
+    color: white;
+}
+
+.banner-left-side {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/image/banner-image.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 745px;
+    position: relative;
+}
+
+.banner-left-text-container {
+    text-align: center;
+    padding: 70px 55px;
+    background-color: #ffffff;
+    width: 30%;
+    position: absolute;
+    left: 85%;
+    bottom: 45%;
+    z-index: 2;
+}
+
+.banner-right-side {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0 200px;
+    position: relative;
+}
+
+.banner-right-text-container {
+    position: absolute;
+    bottom: 45%;
+    padding-right: 200px;
+}
+
+.banner-right-language-container {
+    position: absolute;
+    bottom: 3%;
+    right: 5%;
+}
+
+.language {
+    padding: 15px 25px;
+    text-align: center;
+}
+
+.language-1 {
+    border: 1px solid white;
+}
